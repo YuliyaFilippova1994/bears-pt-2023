@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6d23814f39.js" crossorigin="anonymous"></script>
+    <title>Сайт-визитка</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="display: flex; justify-content: center; align-items: center;">
+                <div class="square_1"></div>
+                Nimaev Developer JS
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="justify-content: center;">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#about_me">О себе</a>
+              <a class="nav-link" href="#hobbies">Мои увлечения</a>
+              <a class="nav-link" href="#projects">Мои работы</a>
+              <a class="nav-link" href="#contacts">Контакты</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main_container">
+          <div class="container_about_me">
+            <div>
+              <h1 class="display-5" id="about_me">Обо мне</h1>
+            </div>
+            <div class="card mb-3" style="max-width: 70%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/IMG_5007.jpg" class="img-fluid rounded-start" alt="Мое фото">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Привет, меня зовут Валерий!</h5>
+                      <p class="card-text">Мне 25 лет и я из города Улан-Удэ.<br>
+                        Я Full-stack JS developer. Занимаюсь разработкой сайтов и мобильных приложений.</p>
+                      <p class="card-text"><small class="text-body-secondary">
+                        На моей страничке вы можете познакомиться со мной,
+                        узнать немного о моих увлечениях и посмотреть мои проекты.</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="container_carousel">
+            <div>
+                <h1 class="display-5" id="hobbies">Мои увлечения</h1>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/books.png" class="d-block w-100" alt="фото книги">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Книги</h5>
+                      <p>В свободное время люблю читать книги</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/parachute.png" class="d-block w-100" alt="фото парашюты">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Парашюты</h5>
+                      <p>Прыгаю с парашютом</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/night sky.png" class="d-block w-100" alt="фото небо">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Небо</h5>
+                      <p>Люблю наслаждаться красотой ночного неба</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        <div class="container_projects">
+            <div class="name">
+                <h1 class="display-5" id="projects">Мои работы</h1>
+            </div>
+            <div class="card-group">
+              <div class="card text-center">
+                <img src="./img/books.png" class="card-img-top" alt="Фото проекта 1">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Тут краткое описание Проекта 1</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
+                  </p>
+                </div>
+              </div>
+              <div class="card text-center">
+                <img src="./img/parachute.png" class="card-img-top" alt="Фото проекта 2">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Тут краткое описание Проекта 2</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
+                </div>
+              </div>
+              <div class="card text-center">
+                <img src="./img/books.png" class="card-img-top" alt="Фото проекта 3">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Тут краткое описание Проекта 3</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
+                </div>
+              </div>
+            </div>
+        </div>        
+      </main>
+      <footer>
+        <div class="footer_text">
+            <h1 class="display-5" id="contacts">Контакты</h1>
+        </div>   
+        <div class="footer_container">
+            <div>
+                <a class="link" href="mailto:nimval@mail.ru">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="https://t.me/nimaev_v">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+            <div>
+                
+                <a class="link" href="https://github.com/Nimaev-Valeriy">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div> 
+        </div>
+      </footer>    
+</body>
+</html>
